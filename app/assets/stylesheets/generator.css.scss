@@ -1,0 +1,28 @@
+// Place all the styles related to the Generator controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 20px;    
+}
+
+#holder{
+    border: 1px solid black;
+    text-align: center; 
+    margin: 20px auto;
+    background-color: orange;
+    width: 400px;
+    padding-bottom: 15px;
+}
+
+#randbox{
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    margin: 0px auto 20px;
+    background-color: lightgreen;
+}

@@ -1,0 +1,11 @@
+<div id='holder'>
+    <h1>Random Word (attempt #<%= flash[:count] %>)</h1>
+
+    <div id='randbox'>
+        <%= @word %>
+    </div>
+    <form action='/' method='get'>
+        <input type='submit' value='Generate'>
+    </form>
+    <a href="/generator/reset"><input type='submit' value='Restart'></a>
+</div>
